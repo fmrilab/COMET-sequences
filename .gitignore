@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# temporary build folders that generate.py creates next to the sequences and removes when it finishes
+build_*/
+verify_*/
+
+# editor / OS
+.DS_Store
+*.swp
+.vscode/
+.idea/

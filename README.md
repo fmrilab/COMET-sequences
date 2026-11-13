@@ -20,6 +20,37 @@ timing number). Folder 4 holds `meGRE.seq/.pge`, `meGRE_info.json` and `one_tr.p
 excitation: prephasers, 22 echoes with their centers marked, spoiler/rewinders). `logs/` has the build logs
 (hardware / PNS / acoustics reports per file).
 
+## Trajectories and sequence diagrams
+
+For each EPI: the (ky, kz) trajectory of frame 1 (physical k-space, m^-1; the start of the echo train is marked
+and the line connects consecutive echoes), and the first TR (RF, ADC and the three gradient axes, time in ms).
+The dashed line in the TR diagrams is the repo's *nominal* TE marker (echo ETL/2 - 0.5), not the k = 0 echo; the
+time of the k = 0 sample is in the table above (33.3 ms, 30 ms, 30 ms).
+
+### 1_laminar_1x_2.4mm_ETL90: fully sampled, one ky line per train (frame = 60 trains)
+
+Each color/number in the trajectory is one train: a ky line at one kz (60 trains per volume).
+
+<img src="1_laminar_1x_2.4mm_ETL90/trajectory.png" width="380" alt="ky-kz trajectory, laminar">
+
+<img src="1_laminar_1x_2.4mm_ETL90/one_tr.png" alt="one TR, laminar">
+
+### 2_radial_90x_2.4mm_ETL60: R = 90, one train per frame (60 samples)
+
+<img src="2_radial_90x_2.4mm_ETL60/trajectory.png" width="380" alt="ky-kz trajectory, radial R = 90">
+
+<img src="2_radial_90x_2.4mm_ETL60/one_tr.png" alt="one TR, radial R = 90">
+
+### 3_radial_122.7x_2.4mm_ETL44: R = 122.7, one train per frame (44 samples)
+
+<img src="3_radial_122.7x_2.4mm_ETL44/trajectory.png" width="380" alt="ky-kz trajectory, radial R = 122.7">
+
+<img src="3_radial_122.7x_2.4mm_ETL44/one_tr.png" alt="one TR, radial R = 122.7">
+
+### 4_meGRE_dwell4us: first image excitation (22 echoes; dashed lines mark every echo center)
+
+<img src="4_meGRE_dwell4us/one_tr.png" alt="one TR, meGRE">
+
 ## Item 1 -- fully sampled laminar (`1_...`)
 
 All-ones (ky, kz) mask, **ETL 90 = Ny, 60 shots**: each train is one full **ky** line (one kz, ky = 0..89 in
