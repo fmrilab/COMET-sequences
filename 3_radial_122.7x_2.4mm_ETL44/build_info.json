@@ -1,0 +1,40 @@
+{
+ "arm": "radial_mask44",
+ "ETL": 44,
+ "Nshots": 1,
+ "R": 122.72727272727273,
+ "Nframes": 6143,
+ "tr_shot": 0.048844,
+ "volume_tr": 0.048844,
+ "fa": 15.608050111831476,
+ "te_prescribed": 0.03031,
+ "min_te": 0.01666,
+ "min_tr": 0.048844,
+ "dwell": 4e-06,
+ "esp": 0.000616,
+ "dky": 19.0,
+ "dkz": 11.0,
+ "dc_echo": 21,
+ "te_delay": 0.013647999999999999,
+ "tr_delay": 0.0,
+ "te_dc_nominal": 0.030000000000000002,
+ "scan_s": 300.048692,
+ "dc_shots": [
+  0
+ ],
+ "te_measured_dc_s": [
+  0.029999999999999943
+ ],
+ "dc_trajectory_ky_kz_at_crossing": [
+  [
+   4.831690603168681e-13,
+   -1.715960706860642e-12
+  ]
+ ],
+ "peak_pns_percent_ArbEPI": 76.71542528777495,
+ "acoustics_ArbEPI": 0.043811078111107085,
+ "peak_pns_percent_EPIcal": 73.28680124090273,
+ "acoustics_EPIcal": 0.04521241135840349,
+ "peak_pns_percent_noise": 0.0,
+ "acoustics_noise": 0.0
+}

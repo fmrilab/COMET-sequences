@@ -1,0 +1,40 @@
+{
+ "arm": "laminar_1x",
+ "ETL": 90,
+ "Nshots": 60,
+ "R": 1.0,
+ "Nframes": 80,
+ "tr_shot": 0.062828,
+ "volume_tr": 3.7696799999999997,
+ "fa": 17.670095194572493,
+ "te_prescribed": 0.033027,
+ "min_te": 0.027969,
+ "min_tr": 0.062828,
+ "dwell": 4e-06,
+ "esp": 0.000552,
+ "dky": 1.0,
+ "dkz": 0.0,
+ "dc_echo": 45,
+ "te_delay": 0.005056,
+ "tr_delay": 0.0,
+ "te_dc_nominal": 0.033301,
+ "scan_s": 301.57439999999997,
+ "dc_shots": [
+  30
+ ],
+ "te_measured_dc_s": [
+  0.03330100000013769
+ ],
+ "dc_trajectory_ky_kz_at_crossing": [
+  [
+   1.964508555829525e-10,
+   -7.211201591417193e-08
+  ]
+ ],
+ "peak_pns_percent_ArbEPI": 69.5822840678802,
+ "acoustics_ArbEPI": 0.09039610136419797,
+ "peak_pns_percent_EPIcal": 69.58271689826277,
+ "acoustics_EPIcal": 0.08870477541283653,
+ "peak_pns_percent_noise": 0.0,
+ "acoustics_noise": 0.0
+}

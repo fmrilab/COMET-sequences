@@ -1,0 +1,18 @@
+/home/rexfung/github/ArbEPI-python/sequences/meGRE.py:128: UserWarning: Specified RF delay 0.00 us is less than the dead time 100 us. Delay was increased to the dead time.
+  rf, gz_ss, gz_ssr = pp.make_sinc_pulse(
+meGRE shots:   0%|          | 0/5670 [00:00<?, ?it/s]meGRE shots:   5%|▌         | 288/5670 [00:00<00:01, 2870.91it/s]meGRE shots:  10%|█         | 576/5670 [00:00<00:01, 2739.12it/s]meGRE shots:  15%|█▌        | 859/5670 [00:00<00:01, 2777.01it/s]meGRE shots:  20%|██        | 1147/5670 [00:00<00:01, 2816.59it/s]meGRE shots:  25%|██▌       | 1443/5670 [00:00<00:01, 2867.61it/s]meGRE shots:  31%|███       | 1741/5670 [00:00<00:01, 2905.15it/s]meGRE shots:  36%|███▌      | 2032/5670 [00:00<00:01, 2869.52it/s]meGRE shots:  41%|████      | 2332/5670 [00:00<00:01, 2910.25it/s]meGRE shots:  46%|████▋     | 2628/5670 [00:00<00:01, 2925.30it/s]meGRE shots:  52%|█████▏    | 2923/5670 [00:01<00:00, 2932.32it/s]meGRE shots:  57%|█████▋    | 3221/5670 [00:01<00:00, 2944.02it/s]meGRE shots:  62%|██████▏   | 3517/5670 [00:01<00:00, 2947.25it/s]meGRE shots:  67%|██████▋   | 3812/5670 [00:01<00:00, 2831.79it/s]meGRE shots:  73%|███████▎  | 4111/5670 [00:01<00:00, 2875.85it/s]meGRE shots:  78%|███████▊  | 4409/5670 [00:01<00:00, 2904.81it/s]meGRE shots:  83%|████████▎ | 4705/5670 [00:01<00:00, 2920.55it/s]meGRE shots:  88%|████████▊ | 5000/5670 [00:01<00:00, 2927.67it/s]meGRE shots:  93%|█████████▎| 5295/5670 [00:01<00:00, 2933.93it/s]meGRE shots:  99%|█████████▊| 5592/5670 [00:01<00:00, 2941.85it/s]meGRE shots: 100%|██████████| 5670/5670 [00:01<00:00, 2899.45it/s]
+Timing check passed successfully
+  '/StorageRAID/rexfung/20261112comet/seqs/build_megre_s98id8ri/scan_info.mat' not found -- run generate_arbepi first if preprocess/ needs it.
+meGRE.seq:
+OK   max grad: 49.93 mT/m (limit 50.00)
+OK   max slew: 174.3 T/m/s (limit 200.0)
+OK   max B1: 0.1468 G (limit 0.2500)
+OK   peak PNS: 71.6% (within normal mode)
+OK   acoustics: 0.1551 (limit 0.3)
+--- meGRE.seq
+OK   max grad: 49.93 mT/m (limit 50.00)
+OK   max slew: 174.3 T/m/s (limit 200.0)
+OK   max B1: 0.1468 G (limit 0.2500)
+OK   peak PNS: 71.6% (within normal mode)
+OK   acoustics: 0.1551 (limit 0.3)
+Wrote /StorageRAID/rexfung/20261112comet/seqs/4_meGRE_dwell4us/meGRE.pge
